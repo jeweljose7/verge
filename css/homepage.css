@@ -2,13 +2,17 @@
     font-family: heroic;
     src: url(./Heroic.ttf);
 }
+@font-face {
+    font-family: adellesans;
+    src: url(./adellesans.ttf);
+}
 body {
     display: block;
     margin: 0px;
 }
 
 .page {
-	display: block;
+	display: inline-block;
 }
 .header {
 	background-color: black;
@@ -103,4 +107,64 @@ li a:hover {
     width: 7px;
     display: inline-block;
     margin-left: 4px;
+}
+
+
+
+.stories-black {
+    width: 100%;
+    background: linear-gradient(90deg,#f7c626 15%,#f68c2f 40%,#e5127d 85%);
+    display: block;
+    float: left;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 1px;
+}
+
+.stories-black__story {
+    background: #000000;
+    color: #ffffff;
+    margin-bottom: 1px;
+    padding: 8px;
+}
+
+.stories-black__story__inner__text {
+   width: 70%;
+    display: inline-block;
+    text-align: center;
+    margin-left: -4px;
+    vertical-align: top;
+    font-size: 1.2em;
+    font-family: adellesans;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.2;
+    
+}
+.stories-black__story__inner__pic {
+	display: inline-block;
+	width: 30%;
+}
+.image {
+	    width: 100%;
+}
+
+.stories-black__story__inner__text__big {
+	color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.by {
+	margin: 0px;
+    display: inline-block;
+    margin-left: 16px;
+    float: left;
+}
+.stories-black__story__inner__text__small {
+	text-decoration: none;
+    color: #e5127d;
+    float: left;
+    margin-left: 9px;
 }
