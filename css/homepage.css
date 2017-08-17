@@ -1,0 +1,144 @@
+@font-face {
+    font-family: heroic;
+    src: url(./Heroic.ttf);
+}
+body {
+    display: block;
+    margin: 0px;
+}
+
+
+.page {
+	display: block;
+}
+
+
+.header {
+	background-color: black;
+	display: block;
+	width: 100%;
+	align-items: center;
+	min-height: 35px;
+	float: left;
+}
+.header__logo {
+	width: 70%;
+	display: inline-block;
+	line-height: 1;
+}
+.header__logo__container {
+	display: inline-block;
+    margin-left: 16px;
+    padding: 8px 0;
+    position: relative;
+    width: auto;
+}
+.thevergesvg {
+	height:25px;
+	max-width: 150px;
+}
+.header__userlogo {
+	float: right;
+	width: 30%;
+	vertical-align: middle;
+	margin-top: 3.7px;
+	display: inline-block; 
+}
+.header__userlogo__container {
+	height: 35px;
+    line-height: 35px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 48px;
+    float: right;
+}
+.userlogosvg {
+	fill: #ffffff;
+    height: 16px;
+    position: relative;
+    top: -2px;
+    width: 16px;
+    vertical-align: middle; 
+    margin-top: 9px;
+}
+.header__navbar {
+	float: none;
+	border-bottom: 1px solid #333333;
+	
+}
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ }
+li {
+	float:left;
+	width: 25%;
+	border-left: 1px solid #333333;
+	box-sizing: border-box;
+}
+li a {
+    display:inline-block; 
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: .05em;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    cursor: pointer;
+    font-family: heroic;
+}
+li a:hover {
+    color: #d9d9d9;
+}
+.header__navbar__arrow {
+	height: 7px;
+    width: 7px;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+
+.add {
+	height: 20px;
+    width: 100%;
+    background-color: black;
+    display: block;
+    float: left;
+    border-bottom: 1px solid black;
+}
+
+
+.stories-black{
+	width: 100%;
+	
+    background: linear-gradient(90deg,#f7c626 15%,#f68c2f 40%,#e5127d 85%);
+    display: block;
+    float: left;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 1px;
+}
+.stories-black__story {
+	background: #000000;
+    color: #ffffff;
+    margin-bottom: 1px;
+    padding: 8px;
+}
+.stories-black__story__inner__pic {
+	width: 30%;
+	    display: inline-block;
+}
+.image {
+	width: 100%;
+}
+.stories-black__story__inner__text {
+	width: 60%;
+	display: inline-block;
+}
