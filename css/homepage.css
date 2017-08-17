@@ -306,22 +306,26 @@ body {
     border-top: 1px solid #343434;
 }
 .footer__logo {
-    width:100%;
+    width:90%;
+    margin: auto;
+    padding: 8px 16px;
 }
 .footer__logo__svg {
-    width: 75%;
-    margin:auto;
+    width: 90%;
+    margin: auto;
 }
 
 .footer__termsofuse {
     font-size: .75em;
     padding: 8px 16px;
+        padding-bottom: 0px;
 
 }
 .footer__termsofuse__sec1 {
     margin: 0 0 8px;
     padding: 0;
     text-align: center;
+        line-height: 1.5;
 
 }
 .footer__termsofuse__sec1 li {
@@ -346,6 +350,7 @@ body {
     margin: 0 0 8px;
     padding: 0;
     text-align: center;
+        line-height: 1.5;
 
 }
 .footer__termsofuse__sec2 li {
@@ -368,6 +373,7 @@ body {
 }
 .info1 {
     text-align: center;
+        line-height: 1.5;
 }
 .info1 a {
     text-decoration: none;
@@ -377,6 +383,8 @@ body {
 .footer__section {
     font-size: .75em;
     padding: 8px 16px;
+    padding-bottom: 5px;
+    line-height: 1.5;
 }
 .voxsvg {
     width: 60%;
