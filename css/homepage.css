@@ -21,7 +21,6 @@ body {
 	min-height: 35px;
 	float: left;
 }
-
 .header__logo {
 	width: 70%;
 	display: inline-block;
@@ -38,7 +37,6 @@ body {
 	height:25px;
 	max-width: 150px;
 }
-
 .header__userlogo {
 	float: right;
 	width: 30%;
@@ -74,15 +72,13 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-   
-}
+ }
 li {
 	float:left;
 	width: 25%;
 	border-left: 1px solid #333333;
 	box-sizing: border-box;
 }
-
 li a {
     display:inline-block; 
     color: white;
@@ -117,9 +113,7 @@ li a:hover {
     border-bottom: 1px solid black;
 }
 
-.storiesblack {
 
-}
 .stories-black{
 	width: 100%;
 	
