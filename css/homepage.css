@@ -2,6 +2,10 @@
     font-family: heroic;
     src: url(./Heroic.ttf);
 }
+@font-face {
+    font-family: adellesans;
+    src: url(./adellesans.ttf);
+}
 body {
     display: block;
     margin: 0px;
@@ -9,7 +13,7 @@ body {
 
 
 .page {
-	display: block;
+	display: inline-block;
 }
 
 
@@ -104,41 +108,83 @@ li a:hover {
 }
 
 
-.add {
-	height: 20px;
-    width: 100%;
-    background-color: black;
-    display: block;
-    float: left;
-    border-bottom: 1px solid black;
-}
-
-
 .stories-black{
 	width: 100%;
-	
-    background: linear-gradient(90deg,#f7c626 15%,#f68c2f 40%,#e5127d 85%);
-    display: block;
-    float: left;
-    border-bottom: 1px solid black;
-    margin: 0 auto;
-    max-width: 1300px;
-    padding: 1px;
+	background: linear-gradient(90deg,#f7c626 15%,#f68c2f 40%,#e5127d 85%);
+  display: block;
+  float: left;
+  border-bottom: 1px solid black;
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 1px;
 }
 .stories-black__story {
-	background: #000000;
+    background: #000000;
     color: #ffffff;
     margin-bottom: 1px;
     padding: 8px;
-}
-.stories-black__story__inner__pic {
-	width: 30%;
-	    display: inline-block;
-}
-.image {
-	width: 100%;
+        overflow: auto;
 }
 .stories-black__story__inner__text {
-	width: 60%;
-	display: inline-block;
+   width: 65%;
+    display: inline-block;
+    text-align: center;
+    margin-left: -4px;
+    vertical-align: top;
+    font-size: 1.2em;
+    font-family: adellesans;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.2;
+    float:right;
+    box-sizing: border-box;
+    
 }
+.stories-black__story__inner__pic {
+	display: inline-block;
+	width: 30%;
+}
+.image {
+	    width: 100%;
+}
+.stories-black__story__inner__text__big {
+	color: white;
+    text-decoration: none;
+    display: block;
+    text-align: start;
+}
+.author {
+	width: 100%;
+    text-align: start;
+    display: inline-block;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: normal;
+    
+    font-size: 0.75em;
+}
+.by {
+	margin: 0px;
+    display: inline-block;
+    
+    float: left;
+}
+.stories-black__story__inner__text__small {
+	text-decoration: none;
+    color: #e5127d;
+    float: left;
+    margin-left: 9px;
+}
+.s2 {
+	font-weight: 600;
+    letter-spacing: normal;
+    font-size: .8em;
+}
+.s2__title {
+	font-size: .9em;
+    margin-bottom: .3rem;
+}
+
+
