@@ -432,6 +432,7 @@ body {
     color: #fff;
     padding-top: 16px;
     border-top: 1px solid #343434;
+        font-family: Helvetica, sans-serif;
 }
 .footer__logo {
     width:90%;
@@ -509,7 +510,7 @@ body {
     display: inline-block;
 }
 .footer__section {
-    font-size: .75em;
+        font-size: .6em;
     padding: 8px 16px;
     padding-bottom: 5px;
     line-height: 1.5;
@@ -518,7 +519,7 @@ body {
     width: 60%;
     margin: auto;
 }
-.footer__section a {
+.footer__section a{
     text-decoration: none;
     color: #e5127d;
     display: inline-block;
@@ -533,5 +534,90 @@ body {
 .inc a {
     display: inline-block;
     font-size: 1em;
+
+}
+
+
+
+@media (min-width:600px) {
+
+.guidebook__content {
+    width: 97%;
+}
+.guidebook__content li {
+       width: 48%;
+}    
+.guidebook__content li:nth-child(2n) {
+        margin-left: 15px;
+}
+.guidebook__content li:nth-child(n+3) {
+        margin-top: 15px;
+        
+}
+
+
+
+.footer {
+    display: inline-block;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding-top: 32px;
+    border-top: 1px solid #343434;
+    font-family: Helvetica, sans-serif;
+        padding-bottom: 20px;
+}
+.footer__logo {
+    width: 200px;
+    padding: 60px 1px;
+    float: left;
+}
+.footer__termsofuse {
+    font-size: .75em;
+    padding: 8px 16px;
+    padding-bottom: 0px;
+    display: inline-block;
+    width: 29%;
+    float: left;
+}
+.footer__section {
+    font-size: .6em;
+    padding-top: 35px;
+    padding-bottom: 5px;
+    line-height: 1.5;
+    width: 275px;
+    display: inline-block;
+    box-sizing: border-box;
+    float: right;
+}
+.footer__section a:not(.footer__section__voxmedia) {
+    text-decoration: none;
+    color: #e5127d;
+    display: inline-block;
+    font-size: 1.4em;
+    text-align: end;
+    display: block;
+}
+.footer__section__voxmedia {
+        display: inline-block;
+}
+
+.inc {
+    text-align: end;
+    font-size: 1.4em;
+}
+.voxsvg {
+    width: 100%;
+}
+.footer__termsofuse__sec1 {
+     text-align: start;
+}
+.footer__termsofuse__sec2 {
+    text-align: start;
+}
+.info1 {
+    text-align: start;
+}
+
 
 }
