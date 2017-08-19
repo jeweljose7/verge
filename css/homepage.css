@@ -541,6 +541,41 @@ body {
 
 @media (min-width:600px) {
 
+.image {
+    width: 100%;
+    height: 100%;
+}
+.bigpic {
+    width: 100%;
+        height: 380px;
+}
+.bigtext {
+    width: 70%;
+    height: 22%;
+    position: absolute;
+    bottom: 14%;
+    left: 15%;
+    background-color: black;
+    text-align: center;
+    padding-top: 11px;
+}
+.stories-black div:first-child {
+   /* width: 70%;
+    height: 22%;
+    position: absolute;
+    bottom: 14%;
+    left: 15%;
+    background-color: black;
+    text-align: center;
+    padding-top: 11px;*/
+} 
+
+
+
+
+
+
+
 .guidebook__content {
     width: 97%;
 }
