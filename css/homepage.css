@@ -711,6 +711,7 @@ body {
         margin-top: -2px;
         margin-bottom: -2px;
         height: 100%;
+        overflow: hidden;
     }
 
 
@@ -851,7 +852,16 @@ body {
 }
 
 @media (min-width:1024px) {
-
+    .page {
+    display: block;
+    }
+    .header__navbar {
+        float: none;
+        border-bottom: 1px solid #333333;
+        max-width: 1300px;
+        margin: auto;
+    }
+    
     .stories-black {
         padding: 2px;
         margin: auto;
@@ -870,6 +880,7 @@ body {
         display: inline-block;
         margin-top: 1px;
         margin-right: -2px;
+        overflow: hidden;
     
     }
     .stories-black >div:nth-child(2) {
@@ -926,6 +937,7 @@ body {
     .stories-black >div:nth-child(5) {
         margin-top: -3px;
         margin-bottom: -4px;
+        overflow: hidden;
     }
     .stories-black >div:nth-child(5) >div:last-child a:first-child{ 
        line-height: 40px;
