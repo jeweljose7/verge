@@ -3,13 +3,14 @@
     src: url(./Heroic.ttf);
 }
 @font-face {
-    font-family: adellesans;
+    font-family: adelle-sans;
     src: url(./adellesans.ttf);
 }
 body {
     display: block;
     margin: 0px;
     background-color: black;
+    font-family: adelle-sans;
 }
 
 
@@ -778,6 +779,7 @@ body {
     }    
     .guidebook__content li:nth-child(2n) {
         margin-left: 15px;
+            vertical-align: bottom;
     }
     .guidebook__content li:nth-child(n+3) {
         margin-top: 15px;
@@ -855,6 +857,12 @@ body {
     .page {
     display: block;
     }
+    .header__logo__container {
+        max-width: 1300px;
+    }
+
+homepage.css:37
+
     .header__navbar {
         float: none;
         border-bottom: 1px solid #333333;
@@ -930,8 +938,13 @@ body {
 
     }
     .stories-black >div:nth-child(4) >div:last-child a:first-child{
-            line-height: 40px;
+        line-height: 53px;
         margin-top: 90px;
+        font-family: "Heroic",Arial Narrow,Helvetica,sans-serif;
+        font-weight: 700;
+        letter-spacing: .009em;
+        text-transform: uppercase;
+        font-size: 1.5em;
 
     }
     .stories-black >div:nth-child(5) {
